@@ -9,7 +9,7 @@
 title: Caro Oviedo
 email: carolina.u.oviedo@gmail.com
 description: Portfolio
-baseurl: "/phantom-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://caro-oviedo.github.io" # the base hostname & protocol for your site
 
 # Logo settings
