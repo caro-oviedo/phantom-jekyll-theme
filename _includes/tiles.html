@@ -1,5 +1,17 @@
 <section class="tiles">
 	
+	<article class="style1">
+		<span class="image">
+			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
+		</span>
+		<a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">
+			<h2>Games1</h2>
+			<div class="content">
+				<p>{{ post.excerpt }}</p>
+			</div>
+		</a>
+	</article>
+	
 		
 {% for post in site.posts limit:site.front-page-posts %}
 	<article class="style{{ forloop.index | plus:1 }}">
