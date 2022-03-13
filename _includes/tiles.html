@@ -1,15 +1,6 @@
 <section class="tiles">
 	
-		<span class="image">
-			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
-		</span>
-		<a href="/posts/games.html">
-			<h2>Games</h2>
-			<div class="content">
-				<p>{{ post.excerpt }}</p>
-			</div>
-		</a>
-	
+		
 {% for post in site.posts limit:site.front-page-posts %}
 	<article class="style{{ forloop.index | plus:1 }}">
 		<span class="image">
